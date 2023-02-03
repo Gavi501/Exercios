@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class  Exercicio1013 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double x1, y1, x2, y2;
+		x1 = sc.nextDouble();
+		y1 = sc.nextDouble();
+		x2 = sc.nextDouble();
+		y2 = sc.nextDouble();
+		sc.close();
+		double primeira = Math.pow(x2 - x1, 2);
+		double segunda = Math.pow(y2 -  y1, 2);
+		double calculo = Math.sqrt(primeira + segunda);
+		
+		System.out.printf("%.4f%n", calculo);
+		
+	}		
+}
